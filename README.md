@@ -7,7 +7,5 @@ A search engine that pulls data from Wikipedia. And if you don't have anything i
 Demo:
 
 ![Screenshot](screen.gif)
-
 Created: Oct 02, 2019
-
 Last Updated: Oct 02, 2019
