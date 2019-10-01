@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>WikipediaViewer</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet" type="text/css"> 
+<!--
+<input type="text" name="textBox" id="textBox">
+   <button type="submit" name="searchButton" id="searchButton">Search</button>
+-->
+
+
+<!-- searchbox -->
+<nav class="navbar navbar-inverse bg-primary sticky-top">
+  <div class="row"><h1 class="title" style="margin: 10px auto 10px 35px;"><i class="fa fa-wikipedia-w"></i>ikipedia Viewer<h1></div>
+  
+    <div class="searchBox">
+<div class="row">
+  <div class="col-md-4">
+    <div class="input-group">
+
+        <input type="text" class="form-control" placeholder="Search for..." id="textBox" name="textBox">
+        <span class="input-group-btn">
+            <button class="btn btn-secondary" type="submit" name="searchButton" id="searchButton">Search</button>
+        </span>
+    </div>
+  </div>
+
+  
+  <a target="_blank" class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Special:Random" role="button">Random Article</a>
+</div>
+   
+    </div>
+
+</nav>
+<!-- searchbox -->
+
+<div class="row">
+
+  <div class="col-6 col-md-2"></div>
+  <div class="col col-md-8">
+<!-- content start -->
+
+
+
+
+<div id="result">
+</div>
+<!-- content end -->
+ 
+</div>
+
+
+
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
